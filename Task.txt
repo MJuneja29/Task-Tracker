@@ -1,0 +1,60 @@
+Objective
+Enhance the application by implementing role-based access and user activity tracking.
+Backend Tasks (Node.js + MongoDB)
+User Roles
+Add roles in user schema (Admin, User)
+Restrict APIs based on role
+Admin APIs
+ Create APIs for:
+View all users
+Delete users
+Update user status (Active/Inactive)
+View all tasks created by users
+Activity Log System
+ Track and store:
+Login activity
+Task creation
+Task update
+Task deletion
+Authorization Middleware
+ Create middleware for:
+Admin access only
+Protected routes
+5.  Admin permissions:
+View all users
+View all tasks
+Delete any task
+Manage users
+User permissions:
+Create own tasks
+View own tasks only
+Update own tasks
+Delete own tasks
+
+Frontend Tasks (React.js)
+Admin Dashboard
+ Create pages for:
+User Management
+Task Monitoring
+Activity Logs
+Role-Based UI
+Show admin menu only for admins
+Restrict unauthorized pages
+Analytics Section
+ Show:
+Total users
+Total tasks
+Completed tasks
+Pending tasks
+Expected Deliverables
+Working role-based authentication
+Admin dashboard with proper access control
+Clean UI with responsive design
+Proper API integration
+Additional Conditions
+Before starting this task, create a new Git branch.
+All changes for this task must be committed and pushed to GitHub on the newly created branch.
+Raise a Pull Request after task completion.
+Code review comments (if any) must be resolved before merging.
+Follow proper folder structure and reusable component architecture in React.
+
