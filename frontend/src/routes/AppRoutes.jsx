@@ -11,6 +11,7 @@ import AnalyticsDashboard from '../pages/admin/AnalyticsDashboard';
 import UserManagement from '../pages/admin/UserManagement';
 import TaskMonitoring from '../pages/admin/TaskMonitoring';
 import ActivityLogs from '../pages/admin/ActivityLogs';
+import AboutAdmin from '../pages/AboutAdmin';
 import Navbar from '../components/layout/Navbar';
 import Sidebar from '../components/layout/Sidebar';
 
@@ -57,6 +58,11 @@ const AppRoutes = () => {
                         <Route path="/task/edit/:id" element={
                             <ProtectedRoute>
                                 <TaskForm />
+                            </ProtectedRoute>
+                        } />
+                        <Route path="/about" element={
+                            <ProtectedRoute>
+                                <AboutAdmin />
                             </ProtectedRoute>
                         } />
 

@@ -1,6 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
-import { FiPieChart, FiUsers, FiList, FiActivity } from 'react-icons/fi';
+import { FiPieChart, FiUsers, FiList, FiActivity, FiUser } from 'react-icons/fi';
 
 const Sidebar = () => {
     const links = [
@@ -8,6 +8,7 @@ const Sidebar = () => {
         { path: '/admin/users', name: 'Users', icon: <FiUsers size={20} /> },
         { path: '/admin/tasks', name: 'Tasks', icon: <FiList size={20} /> },
         { path: '/admin/logs', name: 'Activity', icon: <FiActivity size={20} /> },
+        { path: '/about', name: 'About Admin', icon: <FiUser size={20} /> },
     ];
 
     return (

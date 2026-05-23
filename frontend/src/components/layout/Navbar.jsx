@@ -21,6 +21,13 @@ const Navbar = () => {
             </div>
             
             <div className="flex items-center gap-6">
+                <Link 
+                    to="/about" 
+                    className="hidden sm:flex items-center gap-2 px-4 py-1.5 rounded-full text-sm font-bold bg-indigo-50/50 border border-indigo-100 text-indigo-600 hover:bg-indigo-600 hover:text-white hover:shadow-md hover:-translate-y-0.5 transition-all duration-300"
+                >
+                    <FiUser size={14} />
+                    <span>About Admin</span>
+                </Link>
                 <div className="flex items-center gap-3 bg-white/50 px-4 py-2 rounded-full shadow-sm border border-gray-100">
                     <div className="w-8 h-8 rounded-full bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center text-white shadow-md">
                         <FiUser size={16} />
